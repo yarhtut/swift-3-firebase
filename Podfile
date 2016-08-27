@@ -10,6 +10,7 @@ target 'yar-social' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'SwiftKeychainWrapper'
 
   target 'yar-socialTests' do
     inherit! :search_paths

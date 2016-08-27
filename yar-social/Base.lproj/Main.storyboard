@@ -161,11 +161,55 @@
                     <connections>
                         <outlet property="emailField" destination="xaZ-nK-7ua" id="Tsh-XJ-Wpa"/>
                         <outlet property="passwordField" destination="VAD-Uh-rcY" id="TJM-JN-cac"/>
+                        <segue destination="QQV-b8-516" kind="show" identifier="goToFeed" id="kuc-eC-f9l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="456" y="487.5"/>
+        </scene>
+        <!--Feed Page-->
+        <scene sceneID="rRQ-bE-lEt">
+            <objects>
+                <viewController id="QQV-b8-516" customClass="FeedPage" customModule="yar_social" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YvR-DH-9PN"/>
+                        <viewControllerLayoutGuide type="bottom" id="cFv-wt-jmR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kjP-Ut-8Fc" customClass="Fe">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7W-pQ-5Qj">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Sing Out"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="343" width="100" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="signOutApp:" destination="QQV-b8-516" eventType="touchUpInside" id="N9a-1c-gp0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.87" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="N7W-pQ-5Qj"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="N7W-pQ-5Qj"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToHome" id="piV-bA-gBj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NMV-Zl-Gil" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1267.5" y="487.5"/>
         </scene>
     </scenes>
     <resources>
