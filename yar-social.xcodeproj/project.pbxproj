@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5C65AE7D1D712DD6006EAF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65AE7C1D712DD6006EAF24 /* AppDelegate.swift */; };
-		5C65AE7F1D712DD6006EAF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65AE7E1D712DD6006EAF24 /* ViewController.swift */; };
+		5C65AE7F1D712DD6006EAF24 /* SingnInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65AE7E1D712DD6006EAF24 /* SingnInVC.swift */; };
 		5C65AE821D712DD6006EAF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C65AE801D712DD6006EAF24 /* Main.storyboard */; };
 		5C65AE841D712DD6006EAF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C65AE831D712DD6006EAF24 /* Assets.xcassets */; };
 		5C65AE871D712DD6006EAF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C65AE851D712DD6006EAF24 /* LaunchScreen.storyboard */; };
 		5C65AE921D712DD6006EAF24 /* yar_socialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65AE911D712DD6006EAF24 /* yar_socialTests.swift */; };
 		5C65AE9D1D712DD6006EAF24 /* yar_socialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65AE9C1D712DD6006EAF24 /* yar_socialUITests.swift */; };
+		5C65AEAB1D712F59006EAF24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C65AEAA1D712F59006EAF24 /* GoogleService-Info.plist */; };
+		764907DBB0E8DA285D269123 /* Pods_yar_socialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81297B5C16C1E67358E91A72 /* Pods_yar_socialUITests.framework */; };
+		7C3720254882DBB86FBDEE3D /* Pods_yar_socialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B1840C6E7C976A2603B660 /* Pods_yar_socialTests.framework */; };
+		D4D24BACDE7F7E965F823981 /* Pods_yar_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56814DF840341F0653B74EE /* Pods_yar_social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		118BC001B1CD802B3157FC2E /* Pods-yar-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yar-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-yar-social/Pods-yar-social.release.xcconfig"; sourceTree = "<group>"; };
 		5C65AE791D712DD6006EAF24 /* yar-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yar-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C65AE7C1D712DD6006EAF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C65AE7E1D712DD6006EAF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C65AE7E1D712DD6006EAF24 /* SingnInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingnInVC.swift; sourceTree = "<group>"; };
 		5C65AE811D712DD6006EAF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C65AE831D712DD6006EAF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C65AE861D712DD6006EAF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		5C65AE981D712DD6006EAF24 /* yar-socialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yar-socialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C65AE9C1D712DD6006EAF24 /* yar_socialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yar_socialUITests.swift; sourceTree = "<group>"; };
 		5C65AE9E1D712DD6006EAF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C65AEAA1D712F59006EAF24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67F721329DB0607B7949B851 /* Pods-yar-socialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yar-socialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yar-socialUITests/Pods-yar-socialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73B1840C6E7C976A2603B660 /* Pods_yar_socialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yar_socialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81297B5C16C1E67358E91A72 /* Pods_yar_socialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yar_socialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2EEDBC9E2CF82180EEC9B1 /* Pods-yar-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yar-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yar-social/Pods-yar-social.debug.xcconfig"; sourceTree = "<group>"; };
+		99478ECAA51979E82FAA6FDC /* Pods-yar-socialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yar-socialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yar-socialUITests/Pods-yar-socialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A56814DF840341F0653B74EE /* Pods_yar_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yar_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2247DC1B9058C57327E85A /* Pods-yar-socialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yar-socialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yar-socialTests/Pods-yar-socialTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7A7719ECBC18F66003A2DBE /* Pods-yar-socialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yar-socialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yar-socialTests/Pods-yar-socialTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D24BACDE7F7E965F823981 /* Pods_yar_social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3720254882DBB86FBDEE3D /* Pods_yar_socialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764907DBB0E8DA285D269123 /* Pods_yar_socialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				5C65AE901D712DD6006EAF24 /* yar-socialTests */,
 				5C65AE9B1D712DD6006EAF24 /* yar-socialUITests */,
 				5C65AE7A1D712DD6006EAF24 /* Products */,
+				A4445F03B05066634F77F630 /* Pods */,
+				84341617C0AA6149BB209D41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,15 @@
 		5C65AE7B1D712DD6006EAF24 /* yar-social */ = {
 			isa = PBXGroup;
 			children = (
+				5C65AEAE1D714FE6006EAF24 /* View */,
+				5C65AEAD1D714FDE006EAF24 /* Controller */,
+				5C65AEAC1D714FD0006EAF24 /* Model */,
 				5C65AE7C1D712DD6006EAF24 /* AppDelegate.swift */,
-				5C65AE7E1D712DD6006EAF24 /* ViewController.swift */,
 				5C65AE801D712DD6006EAF24 /* Main.storyboard */,
 				5C65AE831D712DD6006EAF24 /* Assets.xcassets */,
 				5C65AE851D712DD6006EAF24 /* LaunchScreen.storyboard */,
 				5C65AE881D712DD6006EAF24 /* Info.plist */,
+				5C65AEAA1D712F59006EAF24 /* GoogleService-Info.plist */,
 			);
 			path = "yar-social";
 			sourceTree = "<group>";
@@ -125,6 +147,51 @@
 			path = "yar-socialUITests";
 			sourceTree = "<group>";
 		};
+		5C65AEAC1D714FD0006EAF24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5C65AEAD1D714FDE006EAF24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C65AE7E1D712DD6006EAF24 /* SingnInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5C65AEAE1D714FE6006EAF24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		84341617C0AA6149BB209D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56814DF840341F0653B74EE /* Pods_yar_social.framework */,
+				73B1840C6E7C976A2603B660 /* Pods_yar_socialTests.framework */,
+				81297B5C16C1E67358E91A72 /* Pods_yar_socialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4445F03B05066634F77F630 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F2EEDBC9E2CF82180EEC9B1 /* Pods-yar-social.debug.xcconfig */,
+				118BC001B1CD802B3157FC2E /* Pods-yar-social.release.xcconfig */,
+				D7A7719ECBC18F66003A2DBE /* Pods-yar-socialTests.debug.xcconfig */,
+				BC2247DC1B9058C57327E85A /* Pods-yar-socialTests.release.xcconfig */,
+				67F721329DB0607B7949B851 /* Pods-yar-socialUITests.debug.xcconfig */,
+				99478ECAA51979E82FAA6FDC /* Pods-yar-socialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C65AEA11D712DD6006EAF24 /* Build configuration list for PBXNativeTarget "yar-social" */;
 			buildPhases = (
+				4B8A93918063E2AD9F3C47E3 /* [CP] Check Pods Manifest.lock */,
 				5C65AE751D712DD6006EAF24 /* Sources */,
 				5C65AE761D712DD6006EAF24 /* Frameworks */,
 				5C65AE771D712DD6006EAF24 /* Resources */,
+				B8A1342CCB1A951B359F2C27 /* [CP] Embed Pods Frameworks */,
+				46EE972914F547D36CA01A92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C65AEA41D712DD6006EAF24 /* Build configuration list for PBXNativeTarget "yar-socialTests" */;
 			buildPhases = (
+				19439CAA4DCB226BAAFB38BE /* [CP] Check Pods Manifest.lock */,
 				5C65AE891D712DD6006EAF24 /* Sources */,
 				5C65AE8A1D712DD6006EAF24 /* Frameworks */,
 				5C65AE8B1D712DD6006EAF24 /* Resources */,
+				FEAF01F042D4896A8576C5CD /* [CP] Embed Pods Frameworks */,
+				B12F626692625F4BB5F22D47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C65AEA71D712DD6006EAF24 /* Build configuration list for PBXNativeTarget "yar-socialUITests" */;
 			buildPhases = (
+				8DEF56CD0C88443BE8C94CCB /* [CP] Check Pods Manifest.lock */,
 				5C65AE941D712DD6006EAF24 /* Sources */,
 				5C65AE951D712DD6006EAF24 /* Frameworks */,
 				5C65AE961D712DD6006EAF24 /* Resources */,
+				DFBED513A98412A754051BC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C65AE871D712DD6006EAF24 /* LaunchScreen.storyboard in Resources */,
+				5C65AEAB1D712F59006EAF24 /* GoogleService-Info.plist in Resources */,
 				5C65AE841D712DD6006EAF24 /* Assets.xcassets in Resources */,
 				5C65AE821D712DD6006EAF24 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +327,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19439CAA4DCB226BAAFB38BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46EE972914F547D36CA01A92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yar-social/Pods-yar-social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8A93918063E2AD9F3C47E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DEF56CD0C88443BE8C94CCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B12F626692625F4BB5F22D47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yar-socialTests/Pods-yar-socialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A1342CCB1A951B359F2C27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yar-social/Pods-yar-social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFBED513A98412A754051BC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yar-socialUITests/Pods-yar-socialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAF01F042D4896A8576C5CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yar-socialTests/Pods-yar-socialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C65AE751D712DD6006EAF24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C65AE7F1D712DD6006EAF24 /* ViewController.swift in Sources */,
+				5C65AE7F1D712DD6006EAF24 /* SingnInVC.swift in Sources */,
 				5C65AE7D1D712DD6006EAF24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +598,7 @@
 		};
 		5C65AEA21D712DD6006EAF24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2EEDBC9E2CF82180EEC9B1 /* Pods-yar-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "yar-social/Info.plist";
@@ -410,6 +610,7 @@
 		};
 		5C65AEA31D712DD6006EAF24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118BC001B1CD802B3157FC2E /* Pods-yar-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "yar-social/Info.plist";
@@ -421,6 +622,7 @@
 		};
 		5C65AEA51D712DD6006EAF24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A7719ECBC18F66003A2DBE /* Pods-yar-socialTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "yar-socialTests/Info.plist";
@@ -433,6 +635,7 @@
 		};
 		5C65AEA61D712DD6006EAF24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2247DC1B9058C57327E85A /* Pods-yar-socialTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "yar-socialTests/Info.plist";
@@ -445,6 +648,7 @@
 		};
 		5C65AEA81D712DD6006EAF24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F721329DB0607B7949B851 /* Pods-yar-socialUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "yar-socialUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +660,7 @@
 		};
 		5C65AEA91D712DD6006EAF24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99478ECAA51979E82FAA6FDC /* Pods-yar-socialUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "yar-socialUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +689,7 @@
 				5C65AEA31D712DD6006EAF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C65AEA41D712DD6006EAF24 /* Build configuration list for PBXNativeTarget "yar-socialTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +698,7 @@
 				5C65AEA61D712DD6006EAF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C65AEA71D712DD6006EAF24 /* Build configuration list for PBXNativeTarget "yar-socialUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +707,7 @@
 				5C65AEA91D712DD6006EAF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

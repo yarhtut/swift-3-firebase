@@ -1,0 +1,6 @@
+framework module Pods_yar_socialUITests {
+  umbrella header "Pods-yar-socialUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

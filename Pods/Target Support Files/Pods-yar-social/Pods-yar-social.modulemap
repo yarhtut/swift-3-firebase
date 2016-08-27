@@ -1,0 +1,6 @@
+framework module Pods_yar_social {
+  umbrella header "Pods-yar-social-umbrella.h"
+
+  export *
+  module * { export * }
+}
