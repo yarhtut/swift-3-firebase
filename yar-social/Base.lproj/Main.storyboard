@@ -17,10 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Age-21-HJ8" customClass="FancyView" customModule="yar_social" customModuleProvider="target">
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Age-21-HJ8" customClass="FancyView" customModule="yar_social" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="154"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="firebase_28dp" translatesAutoresizingMaskIntoConstraints="NO" id="mVT-zc-SSe">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firebase_28dp" translatesAutoresizingMaskIntoConstraints="NO" id="mVT-zc-SSe">
                                         <rect key="frame" x="180" y="24" width="102" height="102"/>
                                         <variation key="heightClass=regular" ambiguous="YES">
                                             <rect key="frame" x="180" y="26" width="102" height="102"/>
@@ -105,7 +105,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="425" width="360" height="30"/>
+                                    <rect key="frame" x="20" y="417" width="360" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAY-2x-e8N" customClass="FancyBtnSignin" customModule="yar_social" customModuleProvider="target">
@@ -117,11 +117,14 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="20" y="506" width="360" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="signInApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5fh-ci-I9P"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VAD-Uh-rcY">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="20" y="463" width="360" height="30"/>
                                 </variation>
@@ -155,6 +158,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="xaZ-nK-7ua" id="Tsh-XJ-Wpa"/>
+                        <outlet property="passwordField" destination="VAD-Uh-rcY" id="TJM-JN-cac"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
