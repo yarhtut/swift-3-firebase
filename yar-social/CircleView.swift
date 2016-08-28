@@ -9,6 +9,10 @@
 import UIKit
 
 class CircleView: UIImageView {
+
+    override func layoutSubviews() {
+        layer.cornerRadius = self.frame.width / 2
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -17,13 +21,11 @@ class CircleView: UIImageView {
         
         layer.shadowOpacity = 0.8
         layer.shadowRadius = 5.0
+        clipsToBounds = true
         layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
         
     }
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        
-    }
+
     
+
 }
